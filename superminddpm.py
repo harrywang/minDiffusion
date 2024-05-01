@@ -179,4 +179,6 @@ def train_mnist(n_epoch: int = 100, device="cuda:0") -> None:
 
 
 if __name__ == "__main__":
-    train_mnist()
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    print(f"Using {device} device")
+    train_mnist(device=device)
