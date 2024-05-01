@@ -5,6 +5,9 @@
 <img  src="contents/_ddpm_sample_19.png">
 </p>
 
+
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
 Goal of this educational repository is to provide a self-contained, minimalistic implementation of diffusion models using Pytorch.
 
 Many implementations of diffusion models can be a bit overwhelming. Here, `superminddpm` : under 200 lines of code, fully self contained implementation of DDPM with Pytorch is a good starting point for anyone who wants to get started with Denoising Diffusion Models, without having to spend time on the details.
